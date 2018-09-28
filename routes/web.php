@@ -11,6 +11,10 @@
 |
 */
 
+/* FACEBOOK LOGIN */
+Route::get('/redirect', 'FacebookUserController@redirect');
+Route::get('/callback', 'FacebookUserController@callback');
+/*  */
 
 Auth::routes();
 

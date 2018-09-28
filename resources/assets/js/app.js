@@ -88,18 +88,6 @@ import {
 Vue.directive('on-click-outside', onClickOutside);
 
 
-import {
-    library
-} from '@fortawesome/fontawesome-svg-core'
-import {  faPhoneVolume, faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons'
-import {
-    FontAwesomeIcon
-} from '@fortawesome/vue-fontawesome'
-
-library.add(faPhoneVolume);
-library.add(faMapMarkerAlt);
-
-Vue.component('fa-icon', FontAwesomeIcon)
 
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 

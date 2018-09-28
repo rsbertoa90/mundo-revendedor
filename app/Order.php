@@ -5,6 +5,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use App\OrderItem;
 use App\User;
+use App\Tent;
 
 class Order extends Model
 {
@@ -24,8 +25,8 @@ class Order extends Model
         $this->attributes['total']= $val*100;
     }
 
-    public function user()
+    public function tent()
     {
-        return $this->belongsTo(User::class);
+        return $this->belongsTo(Tent::class);
     }
 }

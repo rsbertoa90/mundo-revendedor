@@ -63,6 +63,7 @@
                             </div>
                         </div>
                     </form>
+                    <a href="{{url('/redirect')}}" class="btn btn-primary">Login with Facebook</a>
                 </div>
             </div>
         </div>
